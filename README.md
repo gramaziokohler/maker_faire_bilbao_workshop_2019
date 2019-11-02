@@ -42,6 +42,7 @@ Para habilitar el uso de COMPAS FAB dentro de Rhino/Grasshopper:
 * Diapositivas de la presentación
 * Documentación de [COMPAS](https://compas-dev.github.io/) & [COMPAS FAB](https://ramaziokohler.github.io/compas_fab/)
 * [Configuración de ROS & MoveIt en docker](docker-panda/)
+* [Abrir MoveIt! en tu navegador](http://localhost:8080/vnc.html?resize=scale&autoconnect=true) (una vez iniciado el docker compose del panda)
 * Ejemplos básicos:
   * [Definir el modelo de un robot programáticamente](ejemplos/01_define_model.py)
   * [Cargar robots de Github](ejemplos/02_robot_from_github.py)
