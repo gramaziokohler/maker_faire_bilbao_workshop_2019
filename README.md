@@ -31,7 +31,7 @@ Verificar la instalación:
 
 Para habilitar el uso de COMPAS FAB dentro de Rhino/Grasshopper:
 
-    (mfb19) python -m compas_rhino.install -v 6.0
+    (mfb19) python -m compas_fab.rhino.install
 
 ## Documentación & Ejemplos
 
