@@ -62,3 +62,4 @@ Para habilitar el uso de COMPAS FAB dentro de Rhino/Grasshopper:
     * [Agregar objetos a la escena](ejemplos/13_add_collision_mesh.py)
     * [Agregar objetos agrupados a la escena](ejemplos/14_append_collision_meshes.py)
     * [Eliminar objetos de la escena](ejemplos/15_remove_collision_mesh.py)
+* [Playground de Grasshopper](ejemplos/16_robot_playground.ghx)
