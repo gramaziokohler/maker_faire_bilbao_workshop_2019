@@ -7,27 +7,23 @@
 ## Preparación
 
 Durante el taller, utilizaremos las siguientes herramientas:
- * Laptop con Windows 10 o Mac OS
- * [Anaconda 3](https://www.anaconda.com/distribution/)
- * [Docker Desktop](https://www.docker.com/products/docker-desktop):Si tienes Windows 10 Home Edition, puedes instalar Docker Toolbox en vez de Desktop._
-  * [Visual Studio Code](https://code.visualstudio.com/): _Es recomendable instalar las extensiones de Python y de Docker._
-  * [Rhino 6 & Grasshopper](https://www.rhino3d.com/download): (Opcional) _No es una herramienta de código abierto, pero puede utilizarse por 90 días en modo evaluación. No es un requisito fundamental, pero es muy útil en este contexto._
 
+* Laptop con Windows 10 o Mac OS
+* [Anaconda 3](https://www.anaconda.com/distribution/)
+* [Docker Desktop](https://www.docker.com/products/docker-desktop):Si tienes Windows 10 Home Edition, puedes instalar Docker Toolbox en vez de Desktop._
+* [Visual Studio Code](https://code.visualstudio.com/): _Es recomendable instalar las extensiones de Python y de Docker._
+* [Rhino 6 & Grasshopper](https://www.rhino3d.com/download): (Opcional) _No es una herramienta de código abierto, pero puede utilizarse por 90 días en modo evaluación. No es un requisito fundamental, pero es muy útil en este contexto._
 
 ## Instalación
 
-Es recomendable crear un entorno virtual en conda para no afectar otras dependencias:
+Es recomendable crear un entorno virtual en conda para no afectar otras dependencias. Vamos a crear un entorno e instalar el framework en una sola linea:
 
-    (base) conda create -n makerfairebilbao python=3.6
-    (base) conda activate makerfairebilbao
-
-Y luego instalar el framework:
-
-    (makerfairebilbao) conda install compas_fab
+    (base) conda create -n mfb19 compas_fab python=3.6
 
 Verificar la instalación:
 
-    (makerfairebilbao) python
+    (base) conda activate mfb19
+    (mfb19) python
     >>> import compas_fab
     >>> compas_fab.__version
     '0.8.0'
@@ -35,7 +31,7 @@ Verificar la instalación:
 
 Para habilitar el uso de COMPAS FAB dentro de Rhino/Grasshopper:
 
-    (makerfairebilbao) python -m compas_rhino.install -v 6.0
+    (mfb19) python -m compas_rhino.install -v 6.0
 
 ## Documentación & Ejemplos
 
