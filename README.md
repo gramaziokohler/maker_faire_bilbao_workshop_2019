@@ -25,7 +25,7 @@ Verificar la instalación:
     (base) conda activate mfb19
     (mfb19) python
     >>> import compas_fab
-    >>> compas_fab.__version
+    >>> compas_fab.__version__
     '0.8.0'
     >>> exit()
 
