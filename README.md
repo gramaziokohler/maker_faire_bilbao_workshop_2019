@@ -39,21 +39,26 @@ Para habilitar el uso de COMPAS FAB dentro de Rhino/Grasshopper:
 
 ## Documentación & Ejemplos
 
- * Diapositivas de la presentación
- * Documentación de [COMPAS](https://compas-dev.github.io/) & [COMPAS FAB](https://gramaziokohler.github.io/compas_fab/)
- * Configuración de ROS & MoveIt en docker
- * Ejemplos básicos:
-   * Definir el modelo de un robot programáticamente
-   * Cargar robots de Github
-   * Cargar robots de ROS
-   * Visualizar robots en Rhino 
-   * Visualizar robots en Grasshopper
- * Ejemplos con ROS:  
-   * Verificar la conexión
-   * El "Hello world" de ROS: nodos listener & talker.
- * Ejemplos con ROS & MoveIt usando el robot Panda de Franka Emika
-    * Cinemática directa
-    * Cinemática inversa
-    * Planificación de recorridos en espacio cartesiano
-    * Planificación de recorridos en espacio libre
- 
+* Diapositivas de la presentación
+* Documentación de [COMPAS](https://compas-dev.github.io/) & [COMPAS FAB](https://ramaziokohler.github.io/compas_fab/)
+* [Configuración de ROS & MoveIt en docker](docker-panda/)
+* Ejemplos básicos:
+  * [Definir el modelo de un robot programáticamente](ejemplos/01_define_model.py)
+  * [Cargar robots de Github](ejemplos/02_robot_from_github.py)
+  * [Cargar robots de ROS](ejemplos/03_robot_from_ros.py)
+  * [Visualizar robots en Rhino](ejemplos/04_robot_artist_rhino.py)
+  * [Visualizar robots en Grasshopper](ejemplos/05_robot_artist_grasshopper.ghx)
+* Ejemplos básicos con ROS:
+  * [Verificar la conexión](ejemplos/06_check_connection.py)
+  * El "Hello world" de ROS: nodos conversadores
+    * [Nodo listener](ejemplos/07_ros_hello_world_listener.py)
+    * [Node talker](ejemplos/08_ros_hello_world_talker.py)
+* Ejemplos con ROS & MoveIt usando el robot Panda de Franka Emika:
+  * [Cinemática directa](ejemplos/09_forward_kinematics_ros_loader.py)
+  * [Cinemática inversa](ejemplos/10_inverse_kinematics_ros_loader.py)
+  * [Planificación de recorridos en espacio cartesiano](ejemplos/11_plan_cartesian_motion_ros_loader.py)
+  * [Planificación de recorridos en espacio libre](ejemplos/12_plan_motion_ros_loader.py)
+  * Gestión de la escena de planificación:
+    * [Agregar objetos a la escena](ejemplos/13_add_collision_mesh.py)
+    * [Agregar objetos agrupados a la escena](ejemplos/14_append_collision_meshes.py)
+    * [Eliminar objetos de la escena](ejemplos/15_remove_collision_mesh.py)
